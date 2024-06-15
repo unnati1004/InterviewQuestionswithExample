@@ -80,11 +80,28 @@ function test (){
 
 
 // javascript execution context works
+// Hosting
+console.log(count) //answer is undefined because in javascript execution phase variable value initialize with undefinedand when execution phase happen it check like ya there is variable name count.  
+var count = 1;
 
+// var didn't warn about declaration
 
+// 2  
+console.log(count);
+let count = 1;
 
+// let and const are hosted but in temporal deadzone, they are not hosted same as var 
 
+// Temporal deadzone
+// temporal deadzone is a time between declaration and the initialization 
+// of let and const variable
 
+// what is the vale of this code snnipt
+
+function abc(){
+  console.log(a); //value will be undefined
+  var a = 10;        
+}
 
 
 
