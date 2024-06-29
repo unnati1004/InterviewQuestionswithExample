@@ -150,4 +150,7 @@ const totalMarks = Student.map((stu)=>{
      stu.marks +=20;     
    }       
    return stu;
-}).filter((stu)=>stu)
+}).filter((stu)=>stu.marks > 60);
+
+console.log(totalMarks);
+
