@@ -24,6 +24,7 @@ const input = [
     data: "Data1",
   },
 ];
+
 let obj = {};
 input.map((element)=>{
      if(obj[element.key]){

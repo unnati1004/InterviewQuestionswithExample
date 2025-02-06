@@ -45,7 +45,7 @@ function test (){
   let b = "bye";
   if(true){
     let a = "Hi";  //in this line you can see 'a' variable shadowing 
-//     var b = "gd nyt";   //this show u error that variable is already declared  
+    // var b = "gd nyt";   //this show u error that variable is already declared  
     console.log(a);   
     console.log(b); //this is called illigal shadowing   
 
